@@ -22,4 +22,33 @@ function handleSubmit() {
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.header {
+    background: black;
+    grid-area: header;
+    justify-self: stretch;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input {
+    border: none;
+    width: 600px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    background-color: #1283a9;
+    color: white;
+    padding: 5px 10px
+}
+</style>
